@@ -12,12 +12,6 @@ btn.addEventListener('click', function () {
             <i class="fa fa-trash-can close"></i>
         </li>`;
 		tarefa.value = '';
-
-		// Adiciona o event listener para o novo item criado
-		const close = document.querySelector('.close');
-		close.addEventListener('click', function (e) {
-			e.target.parentElement.remove();
-		});
 	}
 });
 
